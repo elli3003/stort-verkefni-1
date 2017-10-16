@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style--buy.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <title>Kaupa</title>
+</head>
+<body>
+  <header class="navbar--header">
+    <div class="container">
+      <a class="logo navbar" href="#">fooþjónustan</a>
+      <nav>
+        <ul>
+          <li><a class="navbar" href="about.html">Um</a></li>
+          <li class="buy"><a class="navbar" href="buy.html">Kaupa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="page">
+    <header class="header--img">
+      <h1> Kaupa</h1>
+      <img src="bg-subpage.jpg" alt="" width="100%">
+    </header>
+    <div class="main">
+      <div class="personal">
+        <p>persónuupplýsingar</p>
+        <p>
+          <label>Nafn:</label>
+          <input class="name" type="text">
+        </p>
+        <p>
+          <label>Kennitala:</label>
+          <input class="ssn" type="number" value="1234567890">
+        </p>
+        <p>
+          <label class="gender">Kyn: </label>
+          <input type="radio" value="male" name="gender">Karl<br>
+          <input type="radio" value="female" name="gender">Kona<br>
+          <input type="radio" value="other" name="gender">Annað
+        </p>
+        <p>
+          <label>Sími: </label>
+          <input class="phone" type="text" value="+354 812 3456">
+        </p>
+        <p>
+          <input type="checkbox" checked="checked" value="mailing--list">Skrá mig á póstlista
+        </p>
+      </div>
+      <div class="payment--info">
+        <p>
+          Greiðsluupplýsingar
+        </p>
+        <p>
+          <label>Greiða með:</label>
+          <select class="payment" name="payment">
+            <option value="kreditkort">kreditkorti</option>
+            <option value="debetkort">Debetkorti</option>
+          </select>
+        </p>
+        <p>
+          <label>Nafn á korti:</label>
+          <input class="name--on--card" type="text">
+        </p>
+        <p>
+          <label>Kortanúmer: </label>
+          <input class="card--nr" type="text" value="5999-9999-9999-9999">
+        </p>
+        <p>
+          <label class="valid--time">Gildis tími:</label>Mán
+          <select class="month" name="month">
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">04</option>
+            <option value="5">05</option>
+            <option value="6">06</option>
+            <option value="7">07</option>
+            <option value="8">08</option>
+            <option value="9">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          Ár
+          <select class="year" name="year">
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+          </select>
+        </p>
+      </div>
+      <a class="order" href="#">Panta</a>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="contact">
+      <p>Fooþjónustan</p>
+      <p>123-4567</p>
+      <p class="ut">út</p>
+    </div>
+    <div class="address">
+      <p>opið 12-13 alla daga</p>
+      <p>Bargata 1</p>
+      <p>900 foobar</p>
+    </div>
+    <hr>
+    <p>© Fooþjónustan 2017</p>
+  </footer>
+</body>
+</html>
