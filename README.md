@@ -16,7 +16,7 @@ profile2.jpg
 profile3.jpg  
 style--buy.css  
 style--index.css  
-style--nav.css  
+style--about.css  
 
 ---
 
@@ -30,5 +30,11 @@ höfundur síðunar er Erlingur Örn Árnason, email: eoa20@hi.is
 ---
 
 mörg vandamál eru en föst við síðuna og á eftir að stilla textan á forsíðuni erfilega gekk að skala síðuna þannig það var tekið út því ekki gafst tími til að fín stilla það. @media er ekki notað því ekki gafst tími til þess.
+
+---
+
+
+
+---
 
 vonandi er samt hægt að fara yfir þetta og að þetta sé nú í lesanlegt. :)
