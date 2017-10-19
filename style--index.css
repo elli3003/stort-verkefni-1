@@ -80,14 +80,14 @@ footer div {
 }
 .header-text-wrapper  {
   position: absolute;
-  top: 600px;
-  left: 1100px;
+  top: 118px;
+  left: 150px;
 }
 .header-text-wrapper h3{
-  font-size: 3em;
+  font-size: 1em;
 }
 .header-text-wrapper h1 {
-  font-size: 4em;
+  font-size: 1.2em;
 }
 .header--img a {
 border-radius: 5px;
@@ -99,89 +99,72 @@ top: 1000px;
 left: 1250px;
 font-size: 2em;
 }
-@media only screen and (max-width:1440px) {
-  .header-text-wrapper {
-    top: 400px;
-    left: 600px;
-  }
-  .header-text-wrapper h1 {
-    font-size: 3em;
-  }
-  .header-text-wrapper h3 {
-    font-size: 2em;
-  }
-  .header--img a {
-    width: 5%;
-    top: 800px;
-    left: 700px;
-    font-size: 1em;
-  }
+.inner--bullet-points {
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+  float: right;
+  padding: 15em 0em;
 }
-@media only screen and (max-width:1024px) {
-  .header-text-wrapper {
-    top:300px;
-    left: 400px;
-  }
-  .header-text-wrapper h1 {
-    font-size: 2em;
-  }
-  .header-text-wrapper h3 {
-    font-size: 1em;
-  }
-  .header--img a {
-    width: 5%;
-    top: 500px;
-    left: 480px;
-  }
+.bulletpoints > li::before {
+    content: '';
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    background-image: url('check.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right:0.5em;
 }
-@media only screen and (max-width:768px) {
-  .header-text-wrapper {
-    top:250px;
-    left: 300px;
-  }
-  .header-text-wrapper h1 {
-    font-size: 2em;
-  }
-  .header-text-wrapper h3 {
-    font-size: 1em;
-    padding-left: 15px;
-  }
-  .header--img a {
-    width: 5%;
-    top: 450px;
-    left: 380px;
-    font-size: 1em;
-  }
+.bulletpoints  {
+  padding-top: 5em;
+  list-style-type: none;
 }
-@media only screen and (max-device-width:425px) {
-  .header-text-wrapper {
-    top: 150px;
-    left: 150px;
-  }
-/*  á eftir að laga þetta
-.header-text-wrapper h1 {
-    font-size: 2em;
-  }
-  .header-text-wrapper h3 {
-    font-size: 1em;
-    padding-left: 15px;
-  }
-  .header--img a {
-    width: 5%;
-    top: 450px;
-    left: 380px;
-    font-size: 1em;
-  }*/
+.bulletpoints > li {
+  font-size: 2em;
 }
-@media only screen and (max-device-width:375px) {
-  .header-text-wrapper {
-    top:75px;
-    left: 100px;
-  }
+.bulletpoints--under-text {
+  font-size:0.5em;
+  padding-left: 6em;
 }
-@media only screen and (max-device-width:320px) {
-  .header-text-wrapper {
-    top:65px;
-    left: 100px;
-  }
+.recommendation {
+  display: table;
+  text-align: center;
+}
+.recommendation--one {
+  display: table-cell;
+}
+.recommendation--two {
+  display: table-cell;
+  padding-right: 90px;
+}
+.recommendation--three {
+  display: table-cell;
+}
+.recommendation--one img {
+  border-radius: 1000px;
+}
+.recommendation--two img {
+  border-radius: 1000px;
+}
+.recommendation--three img {
+  border-radius: 1000px;
+}
+.recommendation-words {
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+.buy--button--last {
+  border: 1px solid gray;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: gray;
+  font-size: 2em;
+  padding: 4px;
+  border-radius: 5px;
+}
+.buy--button {
+  text-align: center;
+  padding-bottom: 50px;
 }
