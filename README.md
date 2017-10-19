@@ -33,7 +33,13 @@ mörg vandamál eru en föst við síðuna og á eftir að stilla textan á fors
 
 ---
 
-
+index.html skráin fer saman við style--index.css skrána  
+buy.html skráin fer saman við style--buy.css  
+about.html skráin fer sman við style--about.css  
+profile1.jpg, profile2.jpg, profile3.jpg tilheyra allt saman index.html skráni  
+image.jpg, bg.jpg tilheyrir líka index.html  
+check.svg tilheyrir index.html  
+bg-subpage.jpg tilheyrir bæði buy.html og about.html skránim  
 
 ---
 
